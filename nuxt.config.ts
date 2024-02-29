@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: [
+    ['@nuxtjs/google-fonts', {
+      families: ['Oswald', 'Inter:200,300,400,500,600,700,800', 'Oswald+Sans'],
+    }],
+  ],
 })
