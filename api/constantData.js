@@ -14,6 +14,7 @@ import reviewImg4 from '~/assets/images/review-img-4.webp';
 import reviewImg6 from '~/assets/images/review-img-6.webp';
 import reviewImg7 from '~/assets/images/review-img-7.webp';
 import reviewImg5 from '~/assets/images/review=img-5.webp';
+import satisfactionImg from '~/assets/images/satisfactionImg.webp';
 import sugarDefenderImg from '~/assets/images/sugar-defender.webp';
 
 
@@ -126,3 +127,66 @@ export const bonusSectionData = {
     }
   ]
 }
+
+export const defenderSectionData ={
+  TITLE: "Sugar Defender Ingredients",
+  SUB_TITLE: "Explore the Essential Ingredients in Sugar Defender for Optimal Health:",
+  DESCRIPTION: [
+    { 
+      id: 1,
+      title: "🌴 Eleuthero - Natural Energizer:",
+      description: "Eleuthero stands as a natural energizer, renowned for boosting energy levels and combating fatigue. This adaptogen not only enhances stamina but also aids in stress management, a crucial factor in blood sugar fluctuations."
+    },
+    {
+      id: 2,
+      title: "🌴 Coleus - Metabolic Support:",
+      description: "A key ingredient in Sugar Defender, Coleus, is recognized for its potential in improving blood sugar levels and insulin sensitivity. Supporting fundamental metabolic functions, Coleus contributes to the efficacy of this supplement, promoting fat burning for overall metabolic balance."
+    },
+    { 
+      id: 3,
+      title: "🌴 Maca Root - Nutrient-Rich Performance Booster:",
+      description: "Maca Root, a potent nutrient-rich ingredient, is utilized to enhance energy, performance, and overall vitality. Abundant in vitamin C, copper, iron, potassium, and other nutrients, Maca Root supports muscle building, strength, fertility, and cognitive function."
+    },
+    {
+      id: 4,
+      title: "🌴 African Mango - Weight Management and Blood Glucose Support:",
+      description: "Sugar Defender includes African Mango, a historically used medicinal ingredient in Africa. Recognized for promoting overall weight loss, improving blood glucose levels, and offering digestive benefits, African Mango's antioxidants contribute to maintaining healthy blood sugar levels."
+    },
+    {
+      id: 5,
+      title: "🌴 Guarana - Regulator of Blood Sugar and Energy Levels:",
+      description: "A potent ingredient in Sugar Defender, Guarana, plays a vital role in regulating blood sugar levels. With natural properties that enhance insulin sensitivity, Guarana supports sugar metabolism, boosts energy levels, and potentially reduces inflammation, making it a valuable addition to managing diabetes and promoting overall metabolic health."
+    },
+    {
+      id: 6,
+      title: "🌴 Gymnema Sylvestre - Balancer of Blood Sugar Levels:",
+      description: "Gymnema Sylvestre, rich in gymnemic acids, balances blood sugar levels and reduces sugar absorption. Suppressing sweet cravings, Gymnema aids in weight loss efforts and complements the holistic approach of Sugar Defender."
+    },
+    {
+      id: 7,
+      title: "🌴 Ginseng (Panax Ginseng) - Adaptogen for Vitality and Sugar Modulation:",
+      description: "Panax Ginseng, a revered adaptogen, contributes to overall vitality and fat management. Linked to sugar level modulation, Panax Ginseng assists the body's mechanisms for maintaining glycogen metabolism and enhances endurance, beneficial for active lifestyles and diabetes management."
+    },
+    {
+      id: 8,
+      title: "🌴 Chromium - Insulin Sensitivity Support:",
+      description: "Chromium assists insulin action and glucose metabolism, playing a crucial role in effective blood sugar management. Promoting general metabolic health, Chromium facilitates the smooth transfer of glucose into cells, making it a necessary component for individuals monitoring their blood sugar levels."
+    },
+    {
+      id: 9,
+      description: " Experience the synergistic effects of these carefully selected ingredients in Sugar Defender for your journey towards optimal health and balanced blood sugar levels."
+    },
+  ]
+}
+
+export const satisfactionSectionData = {
+  IMAGE: satisfactionImg,
+  TITLE: [
+    "100% Satisfaction",
+    "60-Days Money Back Guarantee"
+  ],
+  DESCRIPTION: [
+    "Your contentment is our utmost priority. Sugar Defender is backed by an exceptional 60-day money-back guarantee from your original purchase date. If the product doesn't meet your expectations or you're dissatisfied within this period, contact us via phone or email, and we'll ensure a full refund within 48 hours upon receiving your returned product.",
+    "Feel free to return the product, even if the bottle is empty, within 60 days. We offer a no-questions-asked full refund, excluding shipping and handling charges."
+]
+} 

@@ -6,6 +6,8 @@
     <ProductSection />
     <BenifitSection />
     <BonousSection />
+    <DefenderSection />
+    <SatisfactionSection />
   </div>
 </template>
 <script setup>
