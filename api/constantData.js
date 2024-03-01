@@ -1,5 +1,12 @@
 import bannerImageButtom1 from '~/assets/images/banner-f-1.webp';
 import bannerImage from '~/assets/images/banner-img.webp';
+import benifitSectionImg from '~/assets/images/benifit-section-img.webp';
+import bonousImg1 from '~/assets/images/bonousImg1.webp';
+import bonousImg2 from '~/assets/images/bonousImg2.webp';
+import customerReviewImg from '~/assets/images/customer-review.webp';
+import product2 from '~/assets/images/prodcut2.webp';
+import product3 from '~/assets/images/product3.webp';
+import product1 from '~/assets/images/products1.webp';
 import reviewImg1 from '~/assets/images/review-img-1.webp';
 import reviewImg2 from '~/assets/images/review-img-2.webp';
 import reviewImg3 from '~/assets/images/review-img-3.webp';
@@ -7,6 +14,7 @@ import reviewImg4 from '~/assets/images/review-img-4.webp';
 import reviewImg6 from '~/assets/images/review-img-6.webp';
 import reviewImg7 from '~/assets/images/review-img-7.webp';
 import reviewImg5 from '~/assets/images/review=img-5.webp';
+import sugarDefenderImg from '~/assets/images/sugar-defender.webp';
 
 
 export const bannerSectionData = {
@@ -52,5 +60,69 @@ export const reviewSectionData = {
       verify: "Verified Purchased",
       rating: 5
     },
+  ]
+}
+
+export const sugerDefenderData = {
+    IMAGE: sugarDefenderImg,
+    TITLE: "What is Sugar Defender?",
+    DESCRIPTION1: "Sugar Defender stands as a beacon of natural, side-effect-free blood sugar support. Crafted from a blend of pure, plant-based ingredients, this formula not only helps regulate blood sugar levels but also empowers you on your journey to weight loss, increased vitality, and overall life improvement.",
+    DESCRIPTION2: "Backed by thorough research, Sugar Defender is ideal for individuals grappling with high blood sugar levels, offering reliable support for healthy fat-burning. The ingredients, carefully selected for their natural purity, culminate in a unique blend encapsulated in Sugar Defender—a safe and effective solution suitable for individuals of any age.",
+    DESCRIPTION3: "Processed with the utmost care in a clean, GMP-certified facility, Sugar Defender adheres to the safest and most sterile standards. Free from harmful chemicals, this supplement aims to restore your body's natural ability to maintain healthy blood sugar levels effectively, ensuring your well-being with every capsule."
+}
+
+export const productData = {
+  TITLE: "Take advantage of this limited offer to stock up on Sugar Defender while supplies last!",
+  REVIEWIMG: customerReviewImg,
+  PRODUCTS: [ 
+    {
+      id: 1,
+      img: product1,
+      link: '#'
+    },
+    {
+      id: 2,
+      img: product2,
+      link: '#'
+    },
+    {
+      id: 3,
+      img: product3,
+      link: '#'
+    }
+  ]
+}
+
+export const benifitSectionData = {
+  TITLE: "Sugar Defender Benefits:",
+  IMAGE: benifitSectionImg,
+  DESCRIPTION1: [
+    "✅ Optimize Blood Sugar Levels Naturally: Sugar Defender's organic compounds work to stabilize and normalize blood sugar levels, preventing potential health complications like blindness, renal failure, and heart disease. Consistent management of blood sugar below a certain threshold is crucial for long-term well-being, making Sugar Defender an effective solution for maintaining optimal blood sugar levels.",
+   "✅ Effective Weight Management with Sugar Defender: The unique blend of nutrients in Sugar Defender supports the body's repair processes and regulates the stress hormone cortisol, curbing overeating tendencies that contribute to weight gain. This specialized mix enhances the efficient burning of fat and carbohydrates, promoting a healthier immune system and overall metabolism for effective weight management.",
+  ],
+  DESCRIPTION2: [
+    "✅ Boost Insulin Production Safely: Sugar Defender neutralizes inflammation and combats harmful free radicals, facilitating the pancreas in efficient insulin production. Insulin plays a pivotal role in digestion, breaking down carbohydrates and lipids to maintain stable blood sugar levels. Elevating insulin production is vital for overall metabolic health, and Sugar Defender supports this process naturally.",
+    "✅ Enhance Blood Pressure and Circulation with Sugar Defender: Improve circulation and ensure the body receives essential nutrients, oxygen, and blood flow with Sugar Defender. This enhancement promotes intestinal health, melanin synthesis, a radiant complexion, and overall well-being. Sugar Defender's contribution to improved blood pressure and circulation supports immune function and vitality for holistic health.",
+    "✅ Invest in Your Well-Being with Sugar Defender: Experience the benefits of Sugar Defender's natural approach to blood sugar support, weight management, insulin production, and overall circulatory health. Elevate your well-being with this SEO-friendly solution for a healthier, more balanced lifestyle."
+  ]
+}
+
+export const bonusSectionData = {
+  TITLE: "Order 6 Bottles Or 3 Bottles And Get 2 Free Bonuses !",
+  BONOUSITEMS: [
+    {
+      id: 1,
+      img: bonousImg1,
+      title:"Free Bonus #1",
+      description: "Learn How to Manage Type II Diabetes",
+      download: "(instant download)"
+    },
+    {
+      id: 2,
+      img: bonousImg2,
+      title:"Free Bonus #2",
+      description: "The Ultimate Tea Remedies",
+      download: "(instant download)"
+    }
   ]
 }

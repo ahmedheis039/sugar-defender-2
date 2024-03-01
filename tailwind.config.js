@@ -13,7 +13,8 @@ export default {
       colors: {
         // Add your custom colors here
         primary: '#931F1E',
-        buttonBG: '#FFE500'
+        buttonBG: '#FFE500',
+        secondary: "#2D3B57"
       },
     },
   },
