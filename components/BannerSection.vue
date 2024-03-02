@@ -3,11 +3,15 @@
     <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-5">
         <div>
           <div class="xl:w-full md:w-[80%]">
-            <img class="w-full h-full" :src="bannerSectionData.BANNERIMAGE" alt="">
+            <nuxt-link :to="REFFEREL_LINK">
+              <img class="w-full h-full" :src="bannerSectionData.BANNERIMAGE" alt="">
+            </nuxt-link>
           </div>
 
           <div class="mt-5 md:w-[80%] mx-auto">
-            <img class="w-full h-full" :src="bannerSectionData.BANNERFOOTERIMG" alt="">
+            <nuxt-link :to="REFFEREL_LINK">
+              <img class="w-full h-full" :src="bannerSectionData.BANNERFOOTERIMG" alt="">
+            </nuxt-link>
           </div>
         </div>
         <div class="text-white">
@@ -18,7 +22,8 @@
           <h3 class="xl:text-3xl md:text-xl text-center lg:mt-5 md:mt-3 font-bold">{{ bannerSectionData.TODAYOFFER }}</h3>
 
          <div class="text-center mt-10">
-          <button class="md:px-10 px-6 py-3 bg-buttonBG text-black xl:text-xl md:text-md rounded-xl border border-black font-bold hover:scale-105 transition duration-500 ease-in-out">
+      <nuxt-link :to="REFFEREL_LINK">
+        <button class="md:px-10 px-6 py-3 bg-buttonBG text-black xl:text-xl md:text-md rounded-xl border border-black font-bold hover:scale-105 transition duration-500 ease-in-out">
          <span class="flex items-center gap-3">
           {{ bannerSectionData.BUTTONTOPTEXT }} 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-6 h-6">
@@ -27,6 +32,7 @@
          </span>
             <span class="text-xs">{{ bannerSectionData.BUTTONBOTTOMTEXT }}</span>
           </button>
+      </nuxt-link>
          </div>
 
         </div>
@@ -35,6 +41,7 @@
 </template>
 <script setup>
 import { bannerSectionData } from '~/api/constantData.js';
+import { REFFEREL_LINK } from '~/utils';
 
 </script>
 <style>

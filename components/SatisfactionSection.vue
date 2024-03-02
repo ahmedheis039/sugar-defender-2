@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary">
-    <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-3 gap-10 items-center">
+    <div class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 grid-cols-1 gap-10 items-center">
         <div class="col-span-1">
           <img :src="satisfactionSectionData.IMAGE" alt="">
         </div>

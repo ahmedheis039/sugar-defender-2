@@ -1,6 +1,6 @@
 <template>
   <div class="bg-secondary">
-    <div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-3 gap-10 items-center">
+    <div class="max-w-7xl mx-auto px-6 py-10 md:py-20 grid md:grid-cols-3 grid-cols-1 gap-10 items-center">
       <div class="col-span-2 text-white">
           <h2 class="text-3xl font-bold">{{ sugerDefenderData.TITLE }}</h2>
            <div class="text-xl font-normal my-5">
@@ -10,8 +10,10 @@
            </div>
       </div>
       <div class="col-span-1">
-         <div>
-          <img :src="sugerDefenderData.IMAGE" alt="">
+         <div class="w-full">
+             <nuxt-link :to="REFFEREL_LINK">
+              <img class="w-full" :src="sugerDefenderData.IMAGE" alt="">
+            </nuxt-link>
          </div>
       </div>
     </div>
