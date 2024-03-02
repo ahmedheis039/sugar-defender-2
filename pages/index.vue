@@ -8,6 +8,8 @@
     <BonousSection />
     <DefenderSection />
     <SatisfactionSection />
+    <FaqSection />
+    <FooterSection />
   </div>
 </template>
 <script setup>

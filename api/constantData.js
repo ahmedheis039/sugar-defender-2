@@ -4,6 +4,7 @@ import benifitSectionImg from '~/assets/images/benifit-section-img.webp';
 import bonousImg1 from '~/assets/images/bonousImg1.webp';
 import bonousImg2 from '~/assets/images/bonousImg2.webp';
 import customerReviewImg from '~/assets/images/customer-review.webp';
+import sugarDefenderImg from '~/assets/images/pop up and website block no 3.png';
 import product2 from '~/assets/images/prodcut2.webp';
 import product3 from '~/assets/images/product3.webp';
 import product1 from '~/assets/images/products1.webp';
@@ -15,7 +16,6 @@ import reviewImg6 from '~/assets/images/review-img-6.webp';
 import reviewImg7 from '~/assets/images/review-img-7.webp';
 import reviewImg5 from '~/assets/images/review=img-5.webp';
 import satisfactionImg from '~/assets/images/satisfactionImg.webp';
-import sugarDefenderImg from '~/assets/images/sugar-defender.webp';
 
 
 export const bannerSectionData = {
@@ -190,3 +190,30 @@ export const satisfactionSectionData = {
     "Feel free to return the product, even if the bottle is empty, within 60 days. We offer a no-questions-asked full refund, excluding shipping and handling charges."
 ]
 } 
+
+export const faqSectionData = {
+  TITLE: "FAQ's [Frequently Asked Questions]",
+  FAQS: [
+    {
+      id: 1,
+      title: "How long will it take to see result?",
+      description: "Individual responses vary, and the timeframe to observe results differs for everyone. Many users report experiencing a noticeable difference within the initial week of using Sugar Defender. However, based on our tests, optimal results are typically achieved with consistent use over three months or more, allowing for a thorough cleansing, restoration, and renewal process. For the best value and sustained benefits, we highly recommend considering our 3 or 6 bottle discount packages. This ensures a continuous supply to support your health journey effectively."
+    },
+    {
+      id: 2,
+      title: "What If, Sugar Defender doesn't work for me?",
+      description: 'I want you to be not just satisfied but enthusiastic about your purchase, and the only way to know is by trying Sugar Defender for 60 days. With my "No Questions Asked 100% Money Back Guarantee," you can experience the results firsthand. Your satisfaction is my commitment. Try the amazing formula and witness the difference yourself.'
+    },
+    {
+      id: 1,
+      title: "How long Until Users see results?",
+      description: "The timeframe for results varies based on your current health status. Typically, it may take one to two weeks to observe changes. If not, exercise patience, as transformative results may take a little more time but are bound to unfold."
+    },
+  ]
+}
+
+export const footerSectionData = {
+  COPY: "Copyright © 2024 - Sugar Defender",
+  TITLE: "FDA Compliance",
+  DESCRIPTION: "All content and information found on this page are for informational purposes only and are not intended to diagnose, treat, cure or prevent any disease. The FDA hasn't evaluated the statements provided on this page. Make sure you consult with a licensed doctor before taking any supplement or making any changes to your diet or exercise plan. Individual results may vary.The display of third-party trademarks and trade names on this site does not necessarily indicate any affiliation or endorsements of our website. If you click a merchant link and buy a product or service on their website, we may be paid a fee by the merchant."
+}

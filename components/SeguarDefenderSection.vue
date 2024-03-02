@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-primary">
-    <div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-3 gap-10">
+  <div class="bg-secondary">
+    <div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-3 gap-10 items-center">
       <div class="col-span-2 text-white">
           <h2 class="text-3xl font-bold">{{ sugerDefenderData.TITLE }}</h2>
            <div class="text-xl font-normal my-5">
