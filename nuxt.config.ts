@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   modules: [
     ['@nuxtjs/google-fonts', {
-      families: ['Oswald', 'Inter:200,300,400,500,600,700,800', 'Oswald+Sans'],
+      families: ['Oswald', 'Inter:200,300,400,500,600,700', 'Oswald+Sans'],
     }],
   ],
   plugins: ["~/plugins/preline.client.ts"],

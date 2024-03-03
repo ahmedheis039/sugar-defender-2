@@ -17,6 +17,25 @@ import reviewImg7 from '~/assets/images/review-img-7.webp';
 import reviewImg5 from '~/assets/images/review=img-5.webp';
 import satisfactionImg from '~/assets/images/satisfactionImg.webp';
 
+export const headerMenus = {
+  MENUS: [
+    {
+      id: 1,
+      name: 'Benefits',
+      link: REFFEREL_LINK
+    },
+    {
+      id: 2,
+      name: 'Price',
+      link: REFFEREL_LINK
+    },
+    {
+      id: 3,
+      name: "FAQ's",
+      link: REFFEREL_LINK
+    },
+  ]
+}
 
 export const bannerSectionData = {
   HEADLINE: 'Sugar Defender: The #1 Rated Blood Sugar Formula',
@@ -98,13 +117,33 @@ export const benifitSectionData = {
   TITLE: "Sugar Defender Benefits:",
   IMAGE: benifitSectionImg,
   DESCRIPTION1: [
-    "✅ Optimize Blood Sugar Levels Naturally: Sugar Defender's organic compounds work to stabilize and normalize blood sugar levels, preventing potential health complications like blindness, renal failure, and heart disease. Consistent management of blood sugar below a certain threshold is crucial for long-term well-being, making Sugar Defender an effective solution for maintaining optimal blood sugar levels.",
-   "✅ Effective Weight Management with Sugar Defender: The unique blend of nutrients in Sugar Defender supports the body's repair processes and regulates the stress hormone cortisol, curbing overeating tendencies that contribute to weight gain. This specialized mix enhances the efficient burning of fat and carbohydrates, promoting a healthier immune system and overall metabolism for effective weight management.",
+{
+  id: 1,
+  title: "✅ Optimize Blood Sugar Levels Naturally: ",
+  description: "Sugar Defender's organic compounds work to stabilize and normalize blood sugar levels, preventing potential health complications like blindness, renal failure, and heart disease. Consistent management of blood sugar below a certain threshold is crucial for long-term well-being, making Sugar Defender an effective solution for maintaining optimal blood sugar levels.",
+},
+{
+  id: 2,
+  title: "✅ Effective Weight Management with Sugar Defender: ",
+  description: "The unique blend of nutrients in Sugar Defender supports the body's repair processes and regulates the stress hormone cortisol, curbing overeating tendencies that contribute to weight gain. This specialized mix enhances the efficient burning of fat and carbohydrates, promoting a healthier immune system and overall metabolism for effective weight management.",
+},
   ],
   DESCRIPTION2: [
-    "✅ Boost Insulin Production Safely: Sugar Defender neutralizes inflammation and combats harmful free radicals, facilitating the pancreas in efficient insulin production. Insulin plays a pivotal role in digestion, breaking down carbohydrates and lipids to maintain stable blood sugar levels. Elevating insulin production is vital for overall metabolic health, and Sugar Defender supports this process naturally.",
-    "✅ Enhance Blood Pressure and Circulation with Sugar Defender: Improve circulation and ensure the body receives essential nutrients, oxygen, and blood flow with Sugar Defender. This enhancement promotes intestinal health, melanin synthesis, a radiant complexion, and overall well-being. Sugar Defender's contribution to improved blood pressure and circulation supports immune function and vitality for holistic health.",
-    "✅ Invest in Your Well-Being with Sugar Defender: Experience the benefits of Sugar Defender's natural approach to blood sugar support, weight management, insulin production, and overall circulatory health. Elevate your well-being with this SEO-friendly solution for a healthier, more balanced lifestyle."
+        {
+          id: 1,
+          title: "✅ Boost Insulin Production Safely:",
+          description: "Sugar Defender neutralizes inflammation and combats harmful free radicals, facilitating the pancreas in efficient insulin production. Insulin plays a pivotal role in digestion, breaking down carbohydrates and lipids to maintain stable blood sugar levels. Elevating insulin production is vital for overall metabolic health, and Sugar Defender supports this process naturally.",
+        },
+        {
+          id: 2,
+          title: "✅ Enhance Blood Pressure and Circulation with Sugar Defender:",
+          description: "Improve circulation and ensure the body receives essential nutrients, oxygen, and blood flow with Sugar Defender. This enhancement promotes intestinal health, melanin synthesis, a radiant complexion, and overall well-being. Sugar Defender's contribution to improved blood pressure and circulation supports immune function and vitality for holistic health.",
+        },
+        {
+          id: 1,
+          title: "✅ Invest in Your Well-Being with Sugar Defender:",
+          description: "Experience the benefits of Sugar Defender's natural approach to blood sugar support, weight management, insulin production, and overall circulatory health. Elevate your well-being with this SEO-friendly solution for a healthier, more balanced lifestyle.",
+        },
   ]
 }
 
@@ -214,6 +253,23 @@ export const faqSectionData = {
 
 export const footerSectionData = {
   COPY: "Copyright © 2024 - Sugar Defender",
+  MENUS: [
+    {
+      id: 1,
+      name: 'Privacy |',
+      link: REFFEREL_LINK
+    },
+    {
+      id: 2,
+      name: 'Disclaimer |',
+      link: REFFEREL_LINK
+    },
+    {
+      id: 3,
+      name: "Terms",
+      link: REFFEREL_LINK
+    },
+  ],
   TITLE: "FDA Compliance",
   DESCRIPTION: "All content and information found on this page are for informational purposes only and are not intended to diagnose, treat, cure or prevent any disease. The FDA hasn't evaluated the statements provided on this page. Make sure you consult with a licensed doctor before taking any supplement or making any changes to your diet or exercise plan. Individual results may vary.The display of third-party trademarks and trade names on this site does not necessarily indicate any affiliation or endorsements of our website. If you click a merchant link and buy a product or service on their website, we may be paid a fee by the merchant."
 }

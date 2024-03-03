@@ -1,7 +1,7 @@
 <template>
   <div>
-     <div class="max-w-7xl mx-auto px-6 py-10 md:py-20">
-        <h2 class="xl:text-5xl md:text-4xl text-3xl text-center text-primary font-bold">{{ reviewSectionData.TITLE }}</h2>
+     <div class="max-w-[1170px] mx-auto px-6 py-10">
+        <h2 class="xl:text-5xl md:text-4xl text-3xl font-oswald text-center text-primary font-bold">{{ reviewSectionData.TITLE }}</h2>
 
         <div>
           <ul class="md:flex mx-auto gap-10 my-16">
@@ -11,7 +11,7 @@
             class="md:w-1/2 md:h-1/2 w-2/3 h-2/3 mx-auto my-5"
             >
               <div>
-                <nuxt-link :to="REFFEREL_LINK">
+                <nuxt-link :to="REFFEREL_LINK" target="_blank">
                   <img class="rounded-full w-full h-full" :src="image" alt="">
                 </nuxt-link>
               </div>
@@ -23,7 +23,7 @@
           <div class="grid md:grid-cols-4 grid-cols-1 md:gap-10 items-center my-5">
              <div class="my-5 w-full col-span-1">
             <div class="flex justify-center">
-               <nuxt-link :to="REFFEREL_LINK">
+               <nuxt-link :to="REFFEREL_LINK" target="_blank">
                 <img class="rounded-full" :src="review.img" alt="">
               </nuxt-link>
             </div>

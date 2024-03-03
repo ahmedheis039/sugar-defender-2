@@ -3,9 +3,13 @@
 <input type="checkbox" :id="showModal" class="modal-toggle" />
 <div class="modal" role="dialog">
   <div class="modal-box p-0">
-    <img :src="POP_UP_IMAGE" alt="">
+    <form method="dialog">
+      <label :for="showModal" class="btn btn-sm btn-circle btn-white absolute right-2 top-2">✕</label>
+    </form>
+    <nuxt-link :to="REFFEREL_LINK" target="_blank">
+      <img :src="POP_UP_IMAGE" alt="">
+    </nuxt-link>
   </div>
-  <label class="modal-backdrop" :for="showModal">Close</label>
 </div>
   </div>
 </template>
