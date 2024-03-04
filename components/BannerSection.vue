@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary">
-    <div class="max-w-[1170px] mx-auto px-6 py-20 md:mt-16 mt-5 grid md:grid-cols-2 gap-5">
+    <div class="max-w-[1170px] mx-auto px-6 py-20 md:mt-16 mt-0 grid md:grid-cols-2 gap-5">
         <div>
           <div class="xl:w-full md:w-[80%]">
             <nuxt-link :to="REFFEREL_LINK" target="_blank">
