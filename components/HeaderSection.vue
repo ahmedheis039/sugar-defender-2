@@ -3,7 +3,7 @@
     <div class="max-w-[1170px] mx-auto px-6 py-1 grid md:grid-cols-3 items-center gap-5">
         <div class="col-span-1">
           <nuxt-link :to="REFFEREL_LINK" target="_blank">
-            <h2 class="hading md:text-4xl text-xl text-center md:text-left font-oswald text-primary"><strong>SUGAR DEFENDER</strong></h2>
+            <h2 class="hading md:text-4xl text-xl text-center py-2 md:py-0 md:text-left font-oswald text-primary"><strong>SUGAR DEFENDER</strong></h2>
           </nuxt-link>
         </div>
         <div class="col-span-2 hidden md:flex gap-10 items-center justify-end">
