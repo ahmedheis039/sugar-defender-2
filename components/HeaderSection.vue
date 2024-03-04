@@ -1,9 +1,9 @@
 <template>
   <div class="fixed top-0 left-0 bg-white w-full shadow-md">
-    <div class="max-w-[1170px] mx-auto px-6 py-1 grid md:grid-cols-3 items-center gap-5">
+    <div class="max-w-[1170px] mx-auto px-6 md:py-1 py-3 grid md:grid-cols-3 items-center gap-5">
         <div class="col-span-1">
           <nuxt-link :to="REFFEREL_LINK" target="_blank">
-            <h2 class="hading md:text-4xl text-xl py-3 text-center md:text-left font-oswald text-primary"><strong>SUGAR DEFENDER</strong></h2>
+            <h2 class="hading md:text-4xl text-xl text-center md:text-left font-oswald text-primary"><strong>SUGAR DEFENDER</strong></h2>
           </nuxt-link>
         </div>
         <div class="col-span-2 hidden md:flex gap-10 items-center justify-end">
