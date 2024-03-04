@@ -17,31 +17,33 @@
   </div>
 </template>
 <script setup>
-// const showModal = ref('modal')
+import { onBeforeUnmount, onMounted, ref, watchEffect } from 'vue';
 
-const showModal = ref(false); // Initialize showModal as false
+const showModal = ref(false);
 
-// Use the mounted hook to open the modal after 5 seconds
-
-
-
-// Use the mounted hook to open the modal after 5 seconds
 onMounted(() => {
   setTimeout(() => {
     showModal.value = true;
+    simulateButtonClick();
+  }, 15000);   // 15,000 miliseconds = 15 sec
 
-    // Simulate a click on the button
-    const button = document.querySelector('.btn');
-    if (button) {
-      button.click();
-    }
-  }, 3000); // 3000 milliseconds = 3 seconds
+  // Show modal when leaving the site
+  window.addEventListener('beforeunload', () => {
+    showModal.value = true;
+    simulateButtonClick();
+  });
 });
 
-// Use a watcher to hide the label when showModal is true
+onBeforeUnmount(() => {
+  // Clean up event listener when component is unmounted
+  window.removeEventListener('beforeunload', () => {
+    showModal.value = true;
+    simulateButtonClick();
+  });
+});
+
 watchEffect(() => {
   if (showModal.value) {
-    // If showModal is true, hide the label
     const button = document.querySelector('.btn');
     if (button) {
       button.style.display = 'none';
@@ -49,7 +51,14 @@ watchEffect(() => {
   }
 });
 
+function simulateButtonClick() {
+  const button = document.querySelector('.btn');
+  if (button) {
+    button.click();
+  }
+}
 </script>
+
 <style>
-  
+  /* Add your styles here */
 </style>

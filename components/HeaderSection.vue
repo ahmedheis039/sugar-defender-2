@@ -1,14 +1,14 @@
 <template>
   <div class="fixed top-0 left-0 bg-white w-full shadow-md">
-    <div class="max-w-[1170px] mx-auto px-6 py-1 grid md:grid-cols-2 items-center gap-5">
+    <div class="max-w-[1170px] mx-auto px-6 py-1 grid md:grid-cols-3 items-center gap-5">
         <div class="col-span-1">
           <nuxt-link :to="REFFEREL_LINK" target="_blank">
-            <h2 class="text-4xl md:text-4xl font-bold font-oswald text-primary">SUGAR DEFENDER</h2>
+            <h2 class="hading md:text-4xl text-center md:text-left font-oswald text-primary"><strong>SUGAR DEFENDER</strong></h2>
           </nuxt-link>
         </div>
-        <div class="hidden md:flex gap-10 items-center justify-end">
+        <div class="col-span-2 hidden md:flex gap-10 items-center justify-end">
             <div class="flex gap-10">
-              <nuxt-link v-for="menu in headerMenus.MENUS" :key="menu.id" class="text-2xl font-oswald font-normal text-primary hover:scale-105 transition duration-500 ease-in-out flex items-center gap-2 group" :to="menu.link" target="_blank">{{ menu.name }}
+              <nuxt-link v-for="menu in headerMenus.MENUS" :key="menu.id" style="font-weight: 400;" class="text-[25px] px-5 py-1 hover:bg-[#FAF089] font-oswald text-primary hover:scale-105 transition duration-500 ease-in-out flex items-center gap-2 group" :to="menu.link" target="_blank">{{ menu.name }}
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 hidden group-hover:flex transition duration-500 ease-in-out">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg> -->
@@ -32,6 +32,9 @@ import { headerMenus } from '~/api/constantData';
 import { REFFEREL_LINK } from '~/utils';
 
 </script>
-<style>
-  
+<style scoped>
+  .hading{
+    font-size: 40px;
+    font-weight: 900 !important;
+  }
 </style>
