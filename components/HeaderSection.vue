@@ -9,9 +9,6 @@
         <div class="col-span-2 hidden md:flex gap-10 items-center justify-end">
             <div class="flex gap-10">
               <nuxt-link v-for="menu in headerMenus.MENUS" :key="menu.id" style="font-weight: 400;" class="text-[25px] px-5 py-1 hover:bg-[#FAF089] font-oswald text-primary hover:scale-105 transition duration-500 ease-in-out flex items-center gap-2 group" :to="menu.link" target="_blank">{{ menu.name }}
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 hidden group-hover:flex transition duration-500 ease-in-out">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-            </svg> -->
               </nuxt-link>
             </div>
             <div>
@@ -34,7 +31,7 @@ import { REFFEREL_LINK } from '~/utils';
 </script>
 <style scoped>
   .hading{
-    font-size: 40px;
-    font-weight: 900 !important;
+    font-size: 45px;
+    font-weight: 700 !important;
   }
 </style>

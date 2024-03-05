@@ -6,7 +6,7 @@
           <h3 class="text-2xl">{{ defenderSectionData.SUB_TITLE }}</h3>
          </div>
          <div >
-          <p v-for="description in defenderSectionData.DESCRIPTION" :key="description.id" class="text-2xl font-normal my-3 text-justify" ><span class="font-bold">{{ description.title }}</span> {{ description.description }}</p>
+          <p v-for="description in defenderSectionData.DESCRIPTION" :key="description.id" class="text-2xl font-normal my-3" ><span class="font-bold">{{ description.title }}</span> {{ description.description }}</p>
          </div>
     </div>
   </div>

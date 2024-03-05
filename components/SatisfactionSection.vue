@@ -4,7 +4,7 @@
         <div class="col-span-1">
           <img :src="satisfactionSectionData.IMAGE" alt="">
         </div>
-        <div class="col-span-2 text-white">
+        <div class="md:col-span-2 col-span-1 text-white">
             <h2 class="text-4xl font-bold text-center" v-for="(title, ind) in satisfactionSectionData.TITLE" :key="ind">{{ title }}</h2>
             <p class="text-xl text-justify my-5" v-for="(description, ind) in satisfactionSectionData.DESCRIPTION" :key="ind">{{ description }}</p>
         </div>

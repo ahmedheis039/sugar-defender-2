@@ -9,11 +9,11 @@
         </div>
         <div>
           <h2 class="text-3xl font-bold text-white">{{ benifitSectionData.TITLE }}</h2>
-          <p class="text-xl font-normal text-white my-5 text-justify" v-for="(description, ind) in benifitSectionData.DESCRIPTION1" :key="ind"><span class="font-bold">{{ description.title }} </span>{{ description.description }}</p>
+          <p class="text-xl font-normal text-white my-5" v-for="(description, ind) in benifitSectionData.DESCRIPTION1" :key="ind"><span class="font-bold">{{ description.title }} </span>{{ description.description }}</p>
         </div>
        </div>
        <div class="mt-10">
-        <p class="text-xl font-normal text-white my-5 text-justify" v-for="(description, ind) in benifitSectionData.DESCRIPTION2" :key="ind"><span class="font-bold">{{ description.title }} </span>{{ description.description }}</p>
+        <p class="text-xl font-normal text-white my-5" v-for="(description, ind) in benifitSectionData.DESCRIPTION2" :key="ind"><span class="font-bold">{{ description.title }} </span>{{ description.description }}</p>
        </div>
     </div>
   </div>

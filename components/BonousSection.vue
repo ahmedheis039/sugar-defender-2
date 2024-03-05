@@ -8,7 +8,7 @@
               <img class="rounded-full text-center" :src="bonous.img" alt="">
             </nuxt-link>
           </div>
-          <div class="col-span-3 text-center md:text-left">
+          <div class="md:col-span-3 col-span-1 text-center md:text-left">
             <nuxt-link :to="REFFEREL_LINK" target="_blank">
               <h2 class="text-4xl font-bold text-[#FFE500]">{{ bonous.title }}</h2>
             <h3 class="text-2xl md:text-4xl text-white font-semibold my-5">{{ bonous.description }}</h3>
