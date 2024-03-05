@@ -23,7 +23,7 @@
 
          <div class="text-center mt-6">
       <nuxt-link :to="REFFEREL_LINK" target="_blank">
-        <button class="md:px-10 w-full md:w-2/3 px-6 py-3 bg-buttonBG text-black xl:text-xl md:text-md rounded-xl border border-black font-bold hover:scale-105 transition duration-500 ease-in-out">
+        <button class="md:px-10 px-6 py-3 bg-buttonBG text-black xl:text-xl md:text-md rounded-xl border border-black font-bold hover:scale-105 transition duration-500 ease-in-out">
          <span class="flex items-center justify-center gap-1">
           {{ bannerSectionData.BUTTONTOPTEXT }} 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-6 h-6">
