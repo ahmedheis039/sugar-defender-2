@@ -18,7 +18,7 @@
           <h2 class="xl:text-4xl text-3xl font-bold">{{ bannerSectionData.HEADLINE }}</h2> 
           <p class="my-4 description md:text-sm py-4 border-b border-t">{{ bannerSectionData.DESCRIPTION }}</p>
 
-          <h3 style="font-weight: 700;" class="sm:text-[28px] text-[20px] tracking-wide font-oswald text-center">{{ bannerSectionData.REGPRICE }} - <span class="line-through">{{ bannerSectionData.REGPRICEVALUE }}</span></h3>
+          <h3 style="font-weight: 700;" class="sm:text-[28px] text-[18px] tracking-wide font-oswald text-center">{{ bannerSectionData.REGPRICE }} - <span class="line-through">{{ bannerSectionData.REGPRICEVALUE }}</span></h3>
           <h3 style="font-weight: 700;" class="sm:text-[32px] text-[24px] tracking-wide font-oswald text-center mt-3">{{ bannerSectionData.TODAYOFFER }}</h3>
 
          <div class="text-center mt-6">
