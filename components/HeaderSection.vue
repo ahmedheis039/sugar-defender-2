@@ -3,12 +3,12 @@
     <div class="max-w-[1170px] mx-auto px-6 md:py-1 py-3 grid md:grid-cols-3 items-center gap-5">
         <div class="col-span-1">
           <nuxt-link :to="REFFEREL_LINK" target="_blank">
-            <h2 class="xl:text-[45px] md:text-4xl font-[700] text-lg text-center md:text-left font-oswald text-primary"><strong>SUGAR DEFENDER</strong></h2>
+            <h2 class="xl:text-[45px] text-4xl font-[700] text-center md:text-left font-oswald text-primary"><strong>SUGAR DEFENDER</strong></h2>
           </nuxt-link>
         </div>
         <div class="col-span-2 hidden md:flex gap-10 items-center justify-end">
             <div class="flex gap-10">
-              <nuxt-link v-for="menu in headerMenus.MENUS" :key="menu.id" style="font-weight: 400;" class="text-[25px] px-5 py-1 hover:bg-[#FAF089] font-oswald text-primary hover:scale-105 transition duration-500 ease-in-out flex items-center gap-2 group" :to="menu.link" target="_blank">{{ menu.name }}
+              <nuxt-link v-for="menu in headerMenus.MENUS" :key="menu.id" style="font-weight: 400;" class="text-[25px] px-5 py-1 font-oswald text-primary hover:scale-105 transition duration-500 ease-in-out flex items-center gap-2 group" :to="menu.link" target="_blank">{{ menu.name }}
               </nuxt-link>
             </div>
             <div>
